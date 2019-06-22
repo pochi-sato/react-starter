@@ -1,0 +1,186 @@
+/* -------------------------------
+reset & default CSS
+----------------------------------*/
+
+html,
+body,
+div,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  font-variant: normal;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: YuGothic, "Yu Gothic", "Noto Sans Japanese", -apple-system,
+    BlinkMacSystemFont, "Helvetica Neue", "ヒラギノ角ゴ ProN W3",
+    Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  font-feature-settings: "palt";
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  letter-spacing: 1px;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+input,
+select,
+button,
+label {
+  -webkit-appearance: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo,
+    メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif;
+  background: none;
+  border: 0;
+}
+
+.l-container {
+  position: relative;
+  padding: 25px 15px;
+}
+
+.m-indicator {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.m-page-logo {
+  display: block;
+  width: 80%;
+  margin: 20px auto 0;
+}
+
+.m-primary-text {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.m-line-button {
+  display: block;
+  width: 80%;
+  margin: 25px auto 0;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  background: #0b0;
+  border-radius: 3px;
+}
+
+.m-liff-close-button {
+  display: block;
+  margin: 25px auto 0;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: #eeeeee;
+  border-radius: 20px;
+}
+
+.page-description {
+  margin-top: 25px;
+}
